@@ -1,0 +1,58 @@
+#partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 90px 0px;
+}
+
+.partnerlogo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.partnerlogo::after {
+    content: "";
+    position: absolute;
+    background-image: url('/HomePage/images/parteners/partner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+    z-index: -1;
+    opacity: 70%;
+}
+
+.logo {
+    height: 65px;
+    margin: 0px 30px;
+    transition: 0.4s;
+    /* margin: ; */
+}
+
+#partners>.heading1 {
+    /* margin: auto; */
+    margin: 0px 100px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+#phonepe {
+    height: 70px;
+}
+
+.logocontainer {
+    height: 55px;
+}
+
+#phonepe .logo {
+    height: 70px;
+}
+
+.logo:hover {
+    margin-top:15px;
+}
